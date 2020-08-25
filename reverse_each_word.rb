@@ -15,5 +15,6 @@ end
 
 def reverse_each_word_collect(sentence)
   array = sentence.split(" ")
+  return_array = []
   
 end
