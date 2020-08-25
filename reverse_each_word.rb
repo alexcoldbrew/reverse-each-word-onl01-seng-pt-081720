@@ -13,3 +13,5 @@ end
 
 # now, do the same thing with .collect/.map instead of .each
 
+def reverse_each_word_collect(sentence)
+  
