@@ -16,5 +16,6 @@ end
 def reverse_each_word_collect(sentence)
   array = sentence.split(" ")
   return_array = []
-  
+  array.collect do|sentence|
+    return_array << sentence.split
 end
