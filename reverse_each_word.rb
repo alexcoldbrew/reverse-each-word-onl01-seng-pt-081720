@@ -21,3 +21,5 @@ def reverse_each_word_collect(sentence)
   end
   return_array.join(" ")
 end
+
+# just changed first method into .collect to get test to pass lol
