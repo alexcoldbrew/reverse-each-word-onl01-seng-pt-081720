@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   # create empty array to put the reversed into
   return_array = []
   # iterate over the new array by reversing 1st with .reverse and shovel on
-  array.each do|sentence|
+  array.collect do|sentence|
     return_array << sentence.reverse
   end
   # return the reversed array by turning it into a string with .join, adding space at index
